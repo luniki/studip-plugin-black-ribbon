@@ -1,0 +1,31 @@
+.ribbon-wrap {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 0;
+}
+
+.ribbon-wrap a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    cursor: help;
+}
+
+.ribbon-wrap .avatar-normal + a {
+    background: url(ribbon-normal.png) no-repeat bottom right;
+}
+
+.ribbon-wrap .avatar-medium + a {
+    background: url(ribbon-medium.png) no-repeat bottom right;
+}
+
+.ribbon-wrap .avatar-small {
+    margin-right: 0 !important;
+}
+.ribbon-wrap .avatar-small + a {
+    background: url(ribbon-small.png) no-repeat bottom right;
+}
